@@ -1,0 +1,26 @@
+[
+  {
+    "id": "grasslands",
+    "entries": [
+      { "enemy": "scout", "count": 10, "interval": 0.8, "start": 1.0 },
+      { "enemy": "scout", "count": 6, "interval": 0.6, "start": 8.0 },
+      { "enemy": "brute", "count": 3, "interval": 1.6, "start": 15.0 }
+    ]
+  },
+  {
+    "id": "badlands",
+    "entries": [
+      { "enemy": "scout", "count": 12, "interval": 0.7, "start": 1.0 },
+      { "enemy": "swarm", "count": 16, "interval": 0.4, "start": 9.0 },
+      { "enemy": "brute", "count": 6, "interval": 1.3, "start": 18.0 }
+    ]
+  },
+  {
+    "id": "heartland",
+    "entries": [
+      { "enemy": "swarm", "count": 18, "interval": 0.5, "start": 1.0 },
+      { "enemy": "scout", "count": 10, "interval": 0.7, "start": 9.0 },
+      { "enemy": "brute", "count": 8, "interval": 1.1, "start": 18.0 }
+    ]
+  }
+]

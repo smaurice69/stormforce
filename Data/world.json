@@ -1,0 +1,137 @@
+[
+  {
+    "id": "ridge_gate",
+    "name": "Ridge Gate",
+    "x": 0,
+    "y": 0,
+    "difficulty": 1,
+    "waves": "grasslands",
+    "neighbors": ["amber_plain", "fern_crossing"]
+  },
+  {
+    "id": "amber_plain",
+    "name": "Amber Plain",
+    "x": 1,
+    "y": 0,
+    "difficulty": 1,
+    "waves": "grasslands",
+    "neighbors": ["ridge_gate", "sungate", "mist_vale"]
+  },
+  {
+    "id": "sungate",
+    "name": "Sungate Rise",
+    "x": 2,
+    "y": 0,
+    "difficulty": 2,
+    "waves": "grasslands",
+    "neighbors": ["amber_plain", "red_mesa", "ironwood"]
+  },
+  {
+    "id": "red_mesa",
+    "name": "Red Mesa",
+    "x": 3,
+    "y": 0,
+    "difficulty": 3,
+    "waves": "badlands",
+    "neighbors": ["sungate", "stormfront", "emberline"]
+  },
+  {
+    "id": "stormfront",
+    "name": "Stormfront Ridge",
+    "x": 4,
+    "y": 0,
+    "difficulty": 4,
+    "waves": "badlands",
+    "neighbors": ["red_mesa", "bastion_field"]
+  },
+  {
+    "id": "fern_crossing",
+    "name": "Fern Crossing",
+    "x": 0,
+    "y": 1,
+    "difficulty": 1,
+    "waves": "grasslands",
+    "neighbors": ["ridge_gate", "mist_vale", "delta_run"]
+  },
+  {
+    "id": "mist_vale",
+    "name": "Mist Vale",
+    "x": 1,
+    "y": 1,
+    "difficulty": 2,
+    "waves": "grasslands",
+    "neighbors": ["amber_plain", "fern_crossing", "ironwood", "floodplain"]
+  },
+  {
+    "id": "ironwood",
+    "name": "Ironwood",
+    "x": 2,
+    "y": 1,
+    "difficulty": 3,
+    "waves": "badlands",
+    "neighbors": ["sungate", "mist_vale", "emberline", "spire_court"]
+  },
+  {
+    "id": "emberline",
+    "name": "Emberline",
+    "x": 3,
+    "y": 1,
+    "difficulty": 4,
+    "waves": "badlands",
+    "neighbors": ["red_mesa", "ironwood", "bastion_field", "ashen_tide"]
+  },
+  {
+    "id": "bastion_field",
+    "name": "Bastion Field",
+    "x": 4,
+    "y": 1,
+    "difficulty": 5,
+    "waves": "heartland",
+    "neighbors": ["stormfront", "emberline", "final_bulwark"]
+  },
+  {
+    "id": "delta_run",
+    "name": "Delta Run",
+    "x": 0,
+    "y": 2,
+    "difficulty": 2,
+    "waves": "grasslands",
+    "neighbors": ["fern_crossing", "floodplain"]
+  },
+  {
+    "id": "floodplain",
+    "name": "Floodplain",
+    "x": 1,
+    "y": 2,
+    "difficulty": 3,
+    "waves": "badlands",
+    "neighbors": ["mist_vale", "delta_run", "spire_court"]
+  },
+  {
+    "id": "spire_court",
+    "name": "Spire Court",
+    "x": 2,
+    "y": 2,
+    "difficulty": 4,
+    "waves": "badlands",
+    "neighbors": ["ironwood", "floodplain", "ashen_tide"]
+  },
+  {
+    "id": "ashen_tide",
+    "name": "Ashen Tide",
+    "x": 3,
+    "y": 2,
+    "difficulty": 5,
+    "waves": "heartland",
+    "neighbors": ["emberline", "spire_court", "final_bulwark"]
+  },
+  {
+    "id": "final_bulwark",
+    "name": "Final Bulwark",
+    "x": 4,
+    "y": 2,
+    "difficulty": 6,
+    "waves": "heartland",
+    "neighbors": ["bastion_field", "ashen_tide"]
+  }
+]

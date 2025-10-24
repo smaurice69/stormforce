@@ -1,0 +1,26 @@
+[
+  {
+    "id": "scout",
+    "name": "Scout Rider",
+    "health": 14.0,
+    "speed": 65.0,
+    "bounty": 3,
+    "tint": "#FF6464"
+  },
+  {
+    "id": "brute",
+    "name": "Shield Brute",
+    "health": 40.0,
+    "speed": 35.0,
+    "bounty": 6,
+    "tint": "#7F9CF5"
+  },
+  {
+    "id": "swarm",
+    "name": "Swarm Drone",
+    "health": 8.0,
+    "speed": 80.0,
+    "bounty": 2,
+    "tint": "#FFD166"
+  }
+]
